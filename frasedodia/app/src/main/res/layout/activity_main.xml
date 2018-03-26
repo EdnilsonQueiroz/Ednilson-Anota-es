@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ednilson.frasedodia.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="387dp"
+        android:layout_height="525dp"
+        android:background="@android:color/holo_orange_dark"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <Button
+            android:id="@+id/idfrase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="79dp"
+            android:text="Button"
+            tools:text="Nova frase" />
+
+        <TextView
+            android:id="@+id/idtextofrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/idfrase"
+            android:layout_marginLeft="61dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="47dp"
+            android:text=" "
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/tesxtofrasee"
+            tools:text=" " />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
